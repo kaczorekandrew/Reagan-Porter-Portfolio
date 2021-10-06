@@ -1,0 +1,262 @@
+#container{
+    background-color:#526edd;
+    padding:15px;
+    font-family:'Megrim', cursive;;
+    font-size: 35px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+    #containertwo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 150px;
+    height:100vh;
+    width: 100vw;
+    }
+
+
+    p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    }
+
+    .text{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 150px;
+        margin-right:50px;
+    }
+
+    .word {
+    position: absolute;
+    width: 220px;
+    opacity: 0;
+    }
+
+    .letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+    }
+
+    .letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .letter.behind {
+    transform: rotateX(-90deg);
+    }
+
+    .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .wisteria {
+    color: #526edd;
+    }
+
+    .belize {
+    color: #526edd;
+    }
+
+    #wrapper {
+        height: 10px;
+
+
+    }
+    
+    #typing-demo {
+        width: 22ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        background-color: #526edd;
+    }
+    
+    @keyframes typing {
+        from {
+        width: 0
+        }
+    }
+        
+    @keyframes blink {
+        50% {
+        border-color: transparent
+        }
+    }
+
+
+#containerfour{
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-top: 300px;
+
+}
+
+#end{
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 35px;
+    font-size: 65px;
+}
+
+#endtwo{
+    font-size: 40px;
+    margin-right: 200px;
+    background-color: #526edd;
+    color:honeydew;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#header{
+    font-size: 120px;
+    margin-left: 100px;
+    font-family: 'Megrim', cursive;
+}
+
+#sectiontwo{
+    margin-top: 720px;
+    background-color:#526edd;
+    display: block; 
+    height:100vh;
+    width: 100vw;
+}
+
+#containerthree{
+    height: 500px;
+    width:1250px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 80px;
+    margin-top: 50px; 
+}
+
+#abone{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 0px 2px 2px #8399ed;
+}
+
+#abtwo{
+    font-size: 35px;
+    font-family: 'Poiret One', cursive;
+    margin-top: 30px;
+    margin-left: 550px;
+    color:#526edd;
+    text-shadow: 0px 2px 2px grey;
+}
+
+#imgcontain{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.projectsection {
+    text-align:center;
+    color:#102C4E;
+    margin-top: 150px;
+    margin-bottom:70px;
+    font-size: 35px;
+
+}
+
+
+
+.project-text {
+text-align:center;
+font-size:50px;
+}
+
+#sectionthree{
+
+    height:100vh;
+    width: 100vw;
+}
+
+#projectcontain{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+#item{
+    background-color: #526edd;
+    color: white;
+    padding:10px;
+}
+
+
+#sectionfour{
+    background-color: #526edd;
+    height:100vh;
+    width: 100vw;
+}
+
+
+#headertwo{
+    font-size: 120px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+}
+
+#art{
+    margin-left: 600px;
+    margin-top: -225px;
+}
+
+form{
+text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+#button{
+    text-align: center;
+}
+
+#imgtwo{
+    margin-left: 580px;
+    margin-right:580px;
+}
+
+#link{
+    margin-left: 650px;
+}
+
+.text-muted{
+    margin-left: 120px;
+}
+
+.card-body{
+    background-color: #8399ed;
+    font-family: "Poiret One", cursive;
+    font-size: large;
+
+}
+
+.card-footer{
+    background-color:#8399ed;
+}
